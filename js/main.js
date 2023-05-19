@@ -44,3 +44,22 @@ console.log(num >= 7 && num !== 12 && myScore[0] < 98)
 
 // the || logical operator will be true if any of the conditions are met
 console.log(num >= 7 || num !== 12)
+
+console.log(num.toFixed(2))
+
+numA = '1'
+numB = 1
+// adding a string with a number will result in concatenation 
+console.log(numA + numB)
+// parsing the string using parseInt and then adding to a number will result in a number
+console.log(parseInt(numA) + numB)
+
+const pets = 2;
+const pet1Name = "Simba"
+const pet2Name = "Bufi"
+
+// concatenation using a string
+console.log("I have " + pets + " dogs, " + pet1Name + " & " + pet2Name)
+
+// variable interpolation ${}, using template literal ``
+console.log(`I have ${pets} dogs, ${pet1Name} & ${pet2Name}`)
